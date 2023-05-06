@@ -80,7 +80,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularASPCRUD-Front-End:build"
+            "browserTarget": "AngularASPCRUD-Front-End:build",
+            "proxyConfig": "srs/proxy.conf.json"
           }
         },
         "test": {
